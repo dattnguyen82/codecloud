@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="kumo-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/kumo-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/lambdaj-2.4-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
