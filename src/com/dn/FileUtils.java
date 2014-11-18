@@ -2,7 +2,6 @@ package com.dn;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /**
@@ -10,7 +9,7 @@ import java.io.IOException;
  */
 public class FileUtils
 {
-    public static boolean isBinaryFile( String path  ) throws FileNotFoundException, IOException
+    public static boolean isBinaryFile( String path  ) throws IOException
     {
         FileInputStream in = new FileInputStream(new File(path));
 
@@ -33,11 +32,7 @@ public class FileUtils
                 return true;
             }
 
-            if( b==0x09 || b==0x0A || b==0x0C || b==0x0D )
-            {
-                ascii++;
-            }
-            else if ( (b>=0x20) && (b<=0x7E) )
+            if( b==0x09 || b==0x0A || b==0x0C || b==0x0D || (b>=0x20) && (b<=0x7E) )
             {
                 ascii++;
             }
@@ -52,6 +47,6 @@ public class FileUtils
             return false;
         }
 
-        return  (other / (ascii + other) *100 )  > 95;
+        return  (other / (ascii + other) * 100 )  > 95;
     }
 }

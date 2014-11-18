@@ -34,7 +34,8 @@ public class FileCountInfo {
             while ((l = inputStream.readLine()) != null)
             {
 
-                l = l.replaceAll("[^A-Za-z0-9 ]", " ");
+                //l = l.replaceAll("[^A-Za-z0-9 ]", " ");
+                l = l.replaceAll("[^A-Za-z]", " ");
 
                 String[] tokens = l.split("\\s+");
 

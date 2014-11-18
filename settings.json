@@ -1,0 +1,27 @@
+{
+    "Maximum":500,
+    "extensions":
+    [
+        {
+            "extension":"c"
+        },
+        {
+            "extension":"cpp"
+        },
+        {
+            "extension":"java"
+        },
+        {
+            "extension":"py"
+        },
+        {
+            "extension":"js"
+        },
+        {
+            "extension":"m"
+        },
+        {
+            "extension":"h"
+        }
+    ]
+}

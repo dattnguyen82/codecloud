@@ -6,6 +6,7 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/kumo-1.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/lambdaj-2.4-with-dependencies.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-20131018.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

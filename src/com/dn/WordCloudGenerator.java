@@ -38,6 +38,8 @@ public class WordCloudGenerator {
         wordCloud.setBackgroundColor(Color.white);
         wordCloud.setColorPalette(setColors(25));
         wordCloud.setFontScalar(new LinearFontScalar(8,80));
+        wordCloud.build(wordFrequencies);
+        wordCloud.writeToFile(fileName);
     }
 
     private ColorPalette setColors(int n)
